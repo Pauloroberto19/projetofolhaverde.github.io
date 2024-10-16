@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto Folha Verde - Confirmação de Cadastro</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="index.html#about">Sobre</a></li>
+                <li><a href="index.html#how-it-works">Como Funciona</a></li>
+                <li><a href="index.html#signup">Cadastro</a></li>
+            </ul>
+        </nav>
+        <h1>Projeto Folha Verde</h1>
+    </header>
+
+    <section id="confirmation">
+        <h2>Cadastro Concluído com Sucesso!</h2>
+        <p>Obrigado por se cadastrar no <strong>Projeto Folha Verde</strong>! Nossa equipe entrará em contato com você em breve para iniciar o processo de avaliação.</p>
+        
+        <h3>Como obter o Certificado:</h3>
+        <p>Para receber o <strong>Certificado Folha Verde</strong>, sua empresa devera mandar registros fotograficos. Durante esse período, vamos avaliar suas práticas de sustentabilidade. Além disso, haverá fiscalizações Semestrais para garantir que as práticas estão sendo mantidas de acordo com os requisitos do projeto.</p>
+        
+        <p>Se aprovada, sua empresa entrará oficialmente no projeto e receberá o certificado reconhecendo seu compromisso com o meio ambiente!</p>
+
+        <div class="container">
+            <button id="uploadBtn">Enviar Foto</button>
+            <input type="file" id="fileInput" accept="image/*" style="display: none;">
+            <p id="fileName"></p>
+            <div id="previewContainer">
+                <img id="previewImage" src="" alt="Preview da Imagem" style="display: none;">
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Projeto Folha Verde. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
